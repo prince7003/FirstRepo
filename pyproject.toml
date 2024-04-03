@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "nilmtk"
+version = "0.1.2"
+description = "NILMTK: Non-Intrusive Load Monitoring Toolkit"
+authors = ["NILMTK Developers"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.26.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
